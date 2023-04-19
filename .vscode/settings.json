@@ -1,0 +1,6 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "isort.interpreter": [
+        "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python36\\python.exe"
+    ]
+}
