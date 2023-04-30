@@ -3,8 +3,11 @@ import cv2
 import mtcnn
 import numpy as np
 
+path = "C:\College Works\Projects\CU_BTECH_PROJECT\datasets\face detection\images\2003\01\01\big\img_82.jpg"
+
+
 # Load image
-img = cv2.imread("example.jpg")
+img = cv2.imread()
 
 # Create MTCNN detector
 detector = mtcnn.MTCNN()
