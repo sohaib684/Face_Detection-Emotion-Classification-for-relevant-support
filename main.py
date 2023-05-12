@@ -1,4 +1,5 @@
 from face_detection.FaceDetection import FaceDetection
+from landmark_detection import LandmarkDetection
 import cv2
 
 vid = cv2.VideoCapture(1)
@@ -13,6 +14,8 @@ while True:
     
     if (ret == 0):
         cv2.imshow("window", output)
+        landmarks = LandmarkDetection.get_landmarks(output)
+        LandmarkDetection.show_landmarks(output, landmarks)
         
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break

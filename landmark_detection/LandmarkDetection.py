@@ -5,7 +5,7 @@ import mtcnn
 import itertools
 import math
 
-img = cv2.imread("image.jpg")
+#img = cv2.imread("image.jpg")
 
 
 def get_landmarks(img):
