@@ -9,7 +9,7 @@ faceDetection = FaceDetection()
 while True:
     ret, frame = vid.read()
 
-    ret, output = faceDetection.etFaceRect(frame)
+    ret, output = faceDetection.getFaceRect(frame)
     
     if (ret == 0):
         cv2.imshow("window", output)
