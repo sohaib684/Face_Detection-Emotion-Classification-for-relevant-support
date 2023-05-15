@@ -1,7 +1,7 @@
 import numpy as np
 from keras.models import Sequential
 from keras.layers import Dense
-from keras.models import load_model
+#from keras.models import load_model
 
 # Define the input and output dimensions
 input_dim = 136
