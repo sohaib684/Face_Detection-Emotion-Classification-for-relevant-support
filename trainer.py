@@ -7,7 +7,7 @@ import numpy as np
 extractionUtil = ExtractionUtil()
 datasetWriter = DatasetWriter()
 
-vid = cv2.VideoCapture(1)
+vid = cv2.VideoCapture(0)
 
 while True:
     ret, image = vid.read()
