@@ -19,13 +19,13 @@ def predict_emotions(input_data):
     print("Predicted emotion:", predicted_emotion)
 
 
-def generate_random_data(n_samples, n_features):
-    X = np.random.randn(n_samples, n_features)
-    return X.tolist()
+# def generate_random_data(n_samples, n_features):
+#     X = np.random.randn(n_samples, n_features)
+#     return X.tolist()
 
 
-input_data = generate_random_data(1, 136)
+# input_data = generate_random_data(1, 136)
 
-predict_emotions(input_data)
+#predict_emotions(input_data)
 
 
