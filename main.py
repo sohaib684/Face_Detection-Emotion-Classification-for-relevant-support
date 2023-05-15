@@ -15,14 +15,19 @@ while True:
     ret, output = faceDetection.getFaceRect(frame)
     
     if (ret == 0):
+        cv2.resize(output, (640, 480))
         cv2.imshow("window", output)
+<<<<<<< Updated upstream
         landmarks = LandmarkDetection.get_landmarks(output)
         LandmarkDetection.show_landmarks(output, landmarks)
+=======
+
+>>>>>>> Stashed changes
         
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     
-    print("running program")
+    #print("running program")
   
 vid.release()
 cv2.destroyAllWindows()"""
