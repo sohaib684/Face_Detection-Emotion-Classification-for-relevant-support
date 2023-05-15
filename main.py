@@ -2,6 +2,7 @@ from Face_and_Landmark_Detection.DetectionUtil import DetectionUtil
 import cv2
 import numpy as np
 import Emotion_Classification.Classification_Prediction as c
+import Analyser.Suggestion as s
 
 """vid = cv2.VideoCapture(1)
 
@@ -53,7 +54,14 @@ detectionUtil.draw_shape_points(image, landmarks)
 print("normalizing landmarks")
 landmarks_norm = detectionUtil.normalizelandmarks(image, landmarks)
 landmarks_norm = np.reshape(landmarks_norm, (136))
+
+# Get Emotion
 Emotion =  c.predict_emotions(landmarks_norm)
+
+# Suggestion By Analyser
+suggest = s.get_suggestion(Emotion)
+print(suggest)
+
 
 print(landmarks_norm)
 
