@@ -2,7 +2,7 @@ from face_detection.FaceDetection import FaceDetection
 from landmark_detection import LandmarkDetection
 import cv2
 
-vid = cv2.VideoCapture(1)
+vid = cv2.VideoCapture(0)
 
 faceDetection = FaceDetection()
 
