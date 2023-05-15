@@ -15,4 +15,4 @@ class FaceDetection:
 
         (x, y, w, h) = faces[0]
 
-        return 0, imageBW[y:y + h, x:x + w]
+        return 0, image[y:y + h, x:x + w]
