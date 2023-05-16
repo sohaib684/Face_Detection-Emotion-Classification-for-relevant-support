@@ -1,7 +1,7 @@
 from Face_and_Landmark_Detection.ExtractionUtil import ExtractionUtil
 import cv2
 import numpy as np
-import Emotion_Classification.Classification_Prediction as c
+#import Emotion_Classification.Classification_Prediction as c
 import Analyser.Suggestion as s
 
 vid = cv2.VideoCapture(0)
