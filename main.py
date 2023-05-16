@@ -1,4 +1,4 @@
-from Face_and_Landmark_Detection.DetectionUtil import DetectionUtil
+from Face_and_Landmark_Detection.ExtractionUtil import ExtractionUtil
 import cv2
 import numpy as np
 import Emotion_Classification.Classification_Prediction as c
@@ -6,31 +6,32 @@ import Analyser.Suggestion as s
 
 vid = cv2.VideoCapture(0)
 
-faceDetection = FaceDetection()
+extractionUtil = ExtractionUtil()
 
 
 while True:
-    ret, frame = vid.read()
+    ret, image = vid.read()
 
-    ret, output = faceDetection.getFaceRect(frame)
-    
+    imageBW = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+    ret, rect = extractionUtil.getFaceRect(imageBW)
+
     if (ret == 0):
-        cv2.resize(output, (640, 480))
-        cv2.imshow("window", output)
-<<<<<<< Updated upstream
-        landmarks = LandmarkDetection.get_landmarks(output)
-        LandmarkDetection.show_landmarks(output, landmarks)
-=======
-
->>>>>>> Stashed changes
-        
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
+        cv2.rectangle(image, extractionUtil.getFlattenedRectangleFromDLibRectangle(rect), (255, 0, 0), 10)
+    else:
+        print("no face detected")
+    
+    cv2.resize(image, (640, 480))
+    cv2.imshow("window", image)
+    
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
     
     #print("running program")
   
 vid.release()
-cv2.destroyAllWindows()"""
+cv2.destroyAllWindows()
+"""
 
 image = cv2.imread("example.jpg")
 print("starting")
@@ -75,4 +76,4 @@ cv2.imshow("window", image)
 
 cv2.waitKey(0)
     
-cv2.destroyAllWindows()
+cv2.destroyAllWindows()"""
