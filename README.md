@@ -1,5 +1,5 @@
 # Emotion classification analysis
-This is a Project built with the help of three member team on Facial Expression with detailed report analysis. Check til the end. 
+This is a Project built with the help of three member team on Facial Expression with detailed report analysis. Scroll till the end. Thankyou
 ## Table of Contents
 1. [Model Demo](#model-demo)
 2. [Problem Statement](#problem-statement)
