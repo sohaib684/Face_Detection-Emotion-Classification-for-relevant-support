@@ -76,10 +76,13 @@ SVM aims to find an optimal decision boundary that maximizes the margin between 
 ![image](https://github.com/user-attachments/assets/f0b8d961-92cb-45c6-9788-29bdd8017b10)
 ![image](https://github.com/user-attachments/assets/88b67128-1800-4c71-b395-f14d8574a95b)
 ![image](https://github.com/user-attachments/assets/5ff2c741-4036-43b6-99c4-44a9183f69f1)
+
 ![image](https://github.com/user-attachments/assets/c9479b66-b0e5-41f2-a713-d3bdba6691ba)
 ![image](https://github.com/user-attachments/assets/14f825dc-41e3-4fb9-b865-ab20fb7f9986)
 
-
+## Model Demo
+IDE - Visual Studio Code
+![2024-10-21 23-23-05 (online-video-cutter com)](https://github.com/user-attachments/assets/7dc5e5c0-bcad-47e2-be61-943c4712d2af)
 
 
 
