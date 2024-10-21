@@ -1,5 +1,5 @@
-# CU_BTECH_PROJECT
-This is a Project built with the help of 2 members on Facial Expression repot analysis.
+# Emotion classification analysis
+This is a Project built with the help of 2 members on Facial Expression report analysis.
 ## Table of Contents
 1. [Problem Statement](#problem-statement)
 2. [Dataset Description](#dataset-description)
@@ -16,7 +16,7 @@ Different organizations and companies can analyze these informations to provide 
 
 ### Note : Face detection dataset : http://vis-www.cs.umass.edu/fddb/index.html#download
 
-## Installation and Tools
+## Installation 
 Development Tools :
 ● For faster in-built libraries and user-friendly syntax, we have used Python 3.6 and
 OpenCV library for the development.
@@ -67,7 +67,7 @@ Both K-Nearest Neighbors (KNN) and Support Vector Machines (SVM) are suitable fo
 KNN focuses on identifying similarities among nearest neighbors in the feature space for emotion classification.
 SVM aims to find an optimal decision boundary that maximizes the margin between different emotion classes.
 
-##RESULTS
+## Results
 ![image](https://github.com/user-attachments/assets/78443a5e-1fff-4674-891f-5e7550906e2a)
 ![image](https://github.com/user-attachments/assets/3c256560-f983-4cfc-8f19-fb0ed66872d4)
 ![image](https://github.com/user-attachments/assets/cf6787a1-14da-4eef-806d-513d7fcfe10d)
