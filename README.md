@@ -68,16 +68,24 @@ KNN focuses on identifying similarities among nearest neighbors in the feature s
 SVM aims to find an optimal decision boundary that maximizes the margin between different emotion classes.
 
 ## Results
+Neural network Accuracy Over time for landmark Coordinate data
 ![image](https://github.com/user-attachments/assets/78443a5e-1fff-4674-891f-5e7550906e2a)
+Neural network Accuracy Over time for Distance Matrix Data
 ![image](https://github.com/user-attachments/assets/3c256560-f983-4cfc-8f19-fb0ed66872d4)
+Neural network Accuracy Over time for Geometrical Feature Data
 ![image](https://github.com/user-attachments/assets/cf6787a1-14da-4eef-806d-513d7fcfe10d)
 
-
+CONFUSION MATRIX - 
+For landmark Co ordinates of neural network
 ![image](https://github.com/user-attachments/assets/f0b8d961-92cb-45c6-9788-29bdd8017b10)
+Distance matrix of neural network
 ![image](https://github.com/user-attachments/assets/88b67128-1800-4c71-b395-f14d8574a95b)
+Geometrical feature data of neural network
 ![image](https://github.com/user-attachments/assets/5ff2c741-4036-43b6-99c4-44a9183f69f1)
-
+![image](https://github.com/user-attachments/assets/178bc394-7812-4920-9f3d-1ae2cf4bbfe1)
+Confusion matrix for SVM Accuracy = 0.39
 ![image](https://github.com/user-attachments/assets/c9479b66-b0e5-41f2-a713-d3bdba6691ba)
+Confusion mtrix for KNN Accuracy = 0.37
 ![image](https://github.com/user-attachments/assets/14f825dc-41e3-4fb9-b865-ab20fb7f9986)
 
 ## Model Demo
